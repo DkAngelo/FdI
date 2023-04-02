@@ -1,0 +1,2 @@
+﻿LINK : warning LNK4076: invalid incremental status file 'x64\Debug\Converti.ilk' (which will be deleted); linking nonincrementally
+  Converti.vcxproj -> C:\Users\angel\Desktop\VisualStudio\Encrypt\x64\Debug\Converti.exe

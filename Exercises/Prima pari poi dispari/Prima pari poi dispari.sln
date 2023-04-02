@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prima pari poi dispari", "Prima pari poi dispari.vcxproj", "{8763852B-1CC4-4885-8E2E-50188E5A7CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Debug|x64.ActiveCfg = Debug|x64
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Debug|x64.Build.0 = Debug|x64
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Debug|x86.Build.0 = Debug|Win32
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Release|x64.ActiveCfg = Release|x64
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Release|x64.Build.0 = Release|x64
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Release|x86.ActiveCfg = Release|Win32
+		{8763852B-1CC4-4885-8E2E-50188E5A7CFC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {120AC86B-5C8F-40A9-B60E-0BD3E24A3FE6}
+	EndGlobalSection
+EndGlobal

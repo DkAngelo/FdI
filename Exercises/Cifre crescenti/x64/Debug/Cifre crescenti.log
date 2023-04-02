@@ -1,0 +1,2 @@
+﻿  crescenti.c
+C:\Users\angel\Desktop\VisualStudio\Cifre crescenti\crescenti.c(18,14): warning C4047: 'return': 'bool' differs in levels of indirection from 'void *'

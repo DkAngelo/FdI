@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\angel\Desktop\VisualStudio\Nuovo\main.c(14,2): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\angel\Desktop\VisualStudio\Nuovo\main.c(21,12): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\angel\Desktop\VisualStudio\Nuovo\main.c(21,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+C:\Users\angel\Desktop\VisualStudio\Nuovo\main.c(22,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\angel\Desktop\VisualStudio\Nuovo\main.c(23,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

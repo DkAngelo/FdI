@@ -1,0 +1,5 @@
+﻿  rapporti.c
+C:\Users\angel\Desktop\Prova 5\Project4\rapporti.c(41,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\angel\Desktop\Prova 5\Project4\rapporti.c(47,25): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\angel\Desktop\Prova 5\Project4\rapporti.c(5,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\angel\Desktop\Prova 5\Project4\rapporti.c(19,1): warning C4047: 'initializing': 'rapporto *' differs in levels of indirection from 'size_t'

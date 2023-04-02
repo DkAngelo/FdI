@@ -1,0 +1,5 @@
+﻿  lettura.c
+C:\Users\angel\Desktop\VisualStudio\Leggi interi\lettura.c(59,10): error C2065: 'p': undeclared identifier
+C:\Users\angel\Desktop\VisualStudio\Leggi interi\lettura.c(59,10): warning C4047: 'function': 'FILE *' differs in levels of indirection from 'int'
+C:\Users\angel\Desktop\VisualStudio\Leggi interi\lettura.c(59,9): warning C4024: 'fclose': different types for formal and actual parameter 1
+C:\Users\angel\Desktop\VisualStudio\Leggi interi\lettura.c(51,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data

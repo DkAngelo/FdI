@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\angel\Desktop\VisualStudio\Potenza d\main.c(28,20): warning C4047: 'function': 'double *' differs in levels of indirection from 'double (*)[10]'
+C:\Users\angel\Desktop\VisualStudio\Potenza d\main.c(28,18): warning C4024: 'potenza': different types for formal and actual parameter 1
+C:\Users\angel\Desktop\VisualStudio\Potenza d\main.c(28,22): warning C4244: 'function': conversion from 'size_t' to 'double', possible loss of data

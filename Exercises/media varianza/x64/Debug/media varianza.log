@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\angel\Desktop\VisualStudio\media varianza\Source.c(18,22): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\angel\Desktop\VisualStudio\media varianza\Source.c(19,25): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+  media varianza.vcxproj -> C:\Users\angel\Desktop\VisualStudio\media varianza\x64\Debug\media varianza.exe

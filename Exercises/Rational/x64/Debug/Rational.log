@@ -1,0 +1,6 @@
+﻿  rational.c
+C:\Users\angel\Desktop\VisualStudio\Rational\rational.c(13,21): warning C4477: 'fscanf' : format string '%i' requires an argument of type 'int *', but variadic argument 1 has type 'char *'
+C:\Users\angel\Desktop\VisualStudio\Rational\rational.c(13,21): message : consider using '%hhi' in the format string
+C:\Users\angel\Desktop\VisualStudio\Rational\rational.c(13,21): warning C4473: 'fscanf' : not enough arguments passed for format string
+C:\Users\angel\Desktop\VisualStudio\Rational\rational.c(13,21): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\angel\Desktop\VisualStudio\Rational\rational.c(13,21): message : the missing variadic argument 2 is required by format string '%i'

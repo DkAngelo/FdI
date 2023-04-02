@@ -1,0 +1,2 @@
+﻿  dataset.c
+C:\Users\angel\Desktop\VisualStudio\Dataset\dataset.c(25,3): warning C4013: 'strcopy' undefined; assuming extern returning int

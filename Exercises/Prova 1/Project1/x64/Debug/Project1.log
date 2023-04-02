@@ -1,0 +1,2 @@
+﻿Prova.obj : error LNK2005: main già definito in main.obj
+D:\VisualStudio\Project1\x64\Debug\Project1.exe : fatal error LNK1169: rilevato uno o più simboli definiti più volte

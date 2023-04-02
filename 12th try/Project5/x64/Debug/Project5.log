@@ -1,0 +1,5 @@
+﻿  images.c
+C:\Users\angel\Desktop\Prova 12\Project5\images.c(38,13): warning C4477: 'fscanf' : format string '%li' requires an argument of type 'long *', but variadic argument 1 has type 'size_t *'
+C:\Users\angel\Desktop\Prova 12\Project5\images.c(38,13): message : consider using '%zi' in the format string
+C:\Users\angel\Desktop\Prova 12\Project5\images.c(38,13): warning C4477: 'fscanf' : format string '%li' requires an argument of type 'long *', but variadic argument 2 has type 'size_t *'
+C:\Users\angel\Desktop\Prova 12\Project5\images.c(38,13): message : consider using '%zi' in the format string

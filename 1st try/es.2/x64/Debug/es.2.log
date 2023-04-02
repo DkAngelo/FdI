@@ -1,0 +1,3 @@
+﻿  MCD.c
+C:\Users\angel\Desktop\Prova esame\es.2\MCD.c(22,11): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\angel\Desktop\Prova esame\es.2\MCD.c(24,9): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data

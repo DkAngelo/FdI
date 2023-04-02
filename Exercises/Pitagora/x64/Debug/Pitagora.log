@@ -1,0 +1,2 @@
+﻿  pitagora.c
+C:\Users\angel\Desktop\Prova esame\Pitagora\pitagora.c(8,23): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data

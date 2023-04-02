@@ -1,0 +1,484 @@
+﻿LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+iup.lib(iupwin_loop.obj) : error LNK2019: unresolved external symbol __imp__RegisterWindowMessageW@4 referenced in function _iupwinSetCustomQuitMessage
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__RegisterWindowMessageW@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__RegisterWindowMessageW@4
+iup.lib(iupwin_loop.obj) : error LNK2019: unresolved external symbol __imp__GetMessageW@16 referenced in function _IupLoopStepWait
+iup.lib(iupwin_loop.obj) : error LNK2019: unresolved external symbol __imp__TranslateMessage@4 referenced in function _winLoopProcessMessage
+iup.lib(iupwin_loop.obj) : error LNK2019: unresolved external symbol __imp__DispatchMessageW@4 referenced in function _winLoopProcessMessage
+iup.lib(iupwin_loop.obj) : error LNK2019: unresolved external symbol __imp__PeekMessageW@20 referenced in function _IupFlush
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__PostMessageW@16
+iup.lib(iupwin_loop.obj) : error LNK2001: unresolved external symbol __imp__PostMessageW@16
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__PostMessageW@16
+iup.lib(iupwin_menu.obj) : error LNK2001: unresolved external symbol __imp__PostMessageW@16
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__PostMessageW@16
+iup.lib(iupwin_loop.obj) : error LNK2019: unresolved external symbol __imp__PostThreadMessageW@16 referenced in function _IupPostMessage
+iup.lib(iupwin_loop.obj) : error LNK2019: unresolved external symbol __imp__PostQuitMessage@4 referenced in function _IupExitLoop
+iup.lib(iupwin_open.obj) : error LNK2019: unresolved external symbol __imp__MessageBoxW@16 referenced in function _iupwinShowLastError
+iup.lib(iupwin_label.obj) : error LNK2001: unresolved external symbol __imp__GetSysColor@4
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__GetSysColor@4
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__GetSysColor@4
+iup.lib(iupwin_open.obj) : error LNK2001: unresolved external symbol __imp__GetSysColor@4
+iup.lib(iupwin_button.obj) : error LNK2001: unresolved external symbol __imp__GetSysColor@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__GetSysColor@4
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetSysColor@4
+iup.lib(iupwin_open.obj) : error LNK2019: unresolved external symbol __imp__CoUninitialize@0 referenced in function _iupdrvClose
+iup.lib(iupwin_open.obj) : error LNK2019: unresolved external symbol __imp__CoInitializeEx@8 referenced in function _iupdrvOpen
+iup.lib(iupwin_open.obj) : error LNK2019: unresolved external symbol __imp__OleUninitialize@0 referenced in function _iupdrvClose
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__DeregisterEventSource@4 referenced in function _IupLog
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__RegisterEventSourceW@8 referenced in function _IupLog
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__ReportEventW@36 referenced in function _IupLog
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__GetUserNameW@8 referenced in function _iupdrvGetUserName
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__GetDeviceCaps@8 referenced in function _iupdrvGetScreenDepth
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__GetDeviceCaps@8
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__GetAsyncKeyState@4 referenced in function _iupdrvGetKeyState
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetAsyncKeyState@4
+iup.lib(iupwin_draw_wdl.obj) : error LNK2019: unresolved external symbol __imp__GetDC@4 referenced in function _iupdrvDrawCreateCanvasWDL
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(font.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_image.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_info.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_font.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+iup.lib(iupwin_draw_wdl.obj) : error LNK2019: unresolved external symbol __imp__ReleaseDC@8 referenced in function _iupdrvDrawFlushWDL
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(font.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_image.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_info.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_font.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+iup.lib(iupwin_filedlg.obj) : error LNK2019: unresolved external symbol __imp__GetWindowRect@8 referenced in function _winFileDlgGetFolder
+iup.lib(iupwin_info.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__GetCursorPos@4 referenced in function _iupdrvGetCursorPos
+iup.lib(iupwin_dragdrop.obj) : error LNK2001: unresolved external symbol __imp__GetCursorPos@4
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__GetCursorPos@4
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__GetDesktopWindow@0 referenced in function _iupdrvGetFullSize
+iup.lib(iupwindows_help.obj) : error LNK2001: unresolved external symbol __imp__GetDesktopWindow@0
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__SystemParametersInfoA@16 referenced in function _iupdrvAddScreenOffset
+iup.lib(iupwin_globalattrib.obj) : error LNK2001: unresolved external symbol __imp__SystemParametersInfoA@16
+iup.lib(iupwin_info.obj) : error LNK2019: unresolved external symbol __imp__SHGetFolderPathW@20 referenced in function _iupdrvGetPreferencePath
+iup.lib(iupwin_font.obj) : error LNK2019: unresolved external symbol __imp__CreateFontW@56 referenced in function _winFindFont
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(canvas.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_image.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_font.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_brush.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+iup.lib(iupwin_font.obj) : error LNK2019: unresolved external symbol __imp__GetTextExtentPoint32W@16 referenced in function _iupdrvFontGetStringWidth
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__GetTextExtentPoint32W@16
+iup.lib(canvas.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_font.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+iup.lib(iupwin_font.obj) : error LNK2019: unresolved external symbol __imp__GetTextMetricsW@8 referenced in function _winFindFont
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_progressbar.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_val.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_toggle.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_calendar.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_datepick.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_tips.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_focus.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_font.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_globalattrib.obj) : error LNK2001: unresolved external symbol __imp__SendMessageW@16
+iup.lib(iupwin_font.obj) : error LNK2019: unresolved external symbol __imp__SystemParametersInfoW@16 referenced in function _iupdrvGetSystemFont
+iup.lib(iupwin_focus.obj) : error LNK2001: unresolved external symbol __imp__SystemParametersInfoW@16
+iup.lib(font.obj) : error LNK2001: unresolved external symbol __imp__SystemParametersInfoW@16
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__TrackMouseEvent@4 referenced in function _iupwinBaseMsgProc
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__GetMessageExtraInfo@0 referenced in function _iupdrvSendKey
+iup.lib(iupwin_tabs.obj) : error LNK2019: unresolved external symbol __imp__DefWindowProcW@16 referenced in function _winTabsInsertItem
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcW@16
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcW@16
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcW@16
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcW@16
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcW@16
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__CallWindowProcW@20
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__CallWindowProcW@20
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__CallWindowProcW@20
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__CallWindowProcW@20
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__CallWindowProcW@20
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__GetClassInfoW@12 referenced in function _iupwinClassExist
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__CreateWindowExW@48 referenced in function _iupwinCreateWindow
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__CreateWindowExW@48
+iup.lib(iupwin_canvas.obj) : error LNK2019: unresolved external symbol __imp__DestroyWindow@4 referenced in function _iupdrvCanvasInitClass
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__DestroyWindow@4
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__DestroyWindow@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__DestroyWindow@4
+iup.lib(iupwin_tips.obj) : error LNK2001: unresolved external symbol __imp__DestroyWindow@4
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__DestroyWindow@4
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+iup.lib(iupwin_fontdlg.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__IsWindowVisible@4 referenced in function _iupdrvBaseSetZorderAttrib
+iup.lib(iupwin_tips.obj) : error LNK2001: unresolved external symbol __imp__IsWindowVisible@4
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__IsWindowVisible@4
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__SendInput@12 referenced in function _iupdrvSendKey
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__MapVirtualKeyW@8 referenced in function _iupdrvSendKey
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__EnableWindow@8 referenced in function _iupdrvSetActive
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__EnableWindow@8
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__IsWindowEnabled@4 referenced in function _iupdrvIsActive
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__GetSystemMetrics@4 referenced in function _iupdrvGetScrollbarSize
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__GetSystemMetrics@4
+iup.lib(iupwin_globalattrib.obj) : error LNK2001: unresolved external symbol __imp__GetSystemMetrics@4
+iup.lib(iupwin_menu.obj) : error LNK2001: unresolved external symbol __imp__GetSystemMetrics@4
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__RedrawWindow@16 referenced in function _iupdrvPostRedraw
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__RedrawWindow@16
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__RedrawWindow@16
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__SetWindowTextW@8 referenced in function _iupdrvSetAccessibleTitle
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__SetWindowTextW@8
+iup.lib(iupwin_fontdlg.obj) : error LNK2001: unresolved external symbol __imp__SetWindowTextW@8
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__GetWindowTextW@12 referenced in function _iupwinGetWindowText
+iup.lib(iupwin_globalattrib.obj) : error LNK2001: unresolved external symbol __imp__GetWindowTextW@12
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__GetWindowTextLengthW@4 referenced in function _iupwinGetWindowText
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetWindowTextLengthW@4
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetWindowTextLengthW@4
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__SetCursorPos@8 referenced in function _iupdrvSendMouse
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__SetCursor@4 referenced in function _iupwinBaseMsgProc
+iup.lib(iupwin_dragdrop.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__ClientToScreen@8 referenced in function _iupdrvClientToScreen
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__ClientToScreen@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__ChildWindowFromPointEx@16 referenced in function _iupwinBaseContainerMsgProc
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__DrawFocusRect@8 referenced in function _iupwinDrawFocusRect
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__DrawFocusRect@8
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+iup.lib(iupwin_tips.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+iup.lib(iupwin_filedlg.obj) : error LNK2019: unresolved external symbol __imp__SetWindowLongW@12 referenced in function _winFileDlgPopup
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongW@12
+iup.lib(iupwin_common.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongW@12
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongW@12
+iup.lib(iupwin_tips.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongW@12
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongW@12
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__GetParent@4 referenced in function _iupdrvActivate
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__SetParent@8 referenced in function _iupdrvReparent
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__SetParent@8
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__SetParent@8
+iup.lib(iupwin_common.obj) : error LNK2019: unresolved external symbol __imp__LoadCursorW@8 referenced in function _iupdrvBaseSetCursorAttrib
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorW@8
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorW@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorW@8
+iup.lib(iupwin_val.obj) : error LNK2019: unresolved external symbol __imp__GetStockObject@4 referenced in function _winValMsgProc
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(font.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_toggle.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_button.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+iup.lib(iupwin_val.obj) : error LNK2019: unresolved external symbol __imp__SetDCBrushColor@8 referenced in function _winValMsgProc
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_toggle.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_button.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__SetDCBrushColor@8
+iup.lib(iupwin_val.obj) : error LNK2019: unresolved external symbol __imp__SetFocus@4 referenced in function _winValMsgProc
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+iup.lib(iupwin_button.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+iup.lib(iupwin_focus.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+iup.lib(iupwin_fontdlg.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_button.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SetRect@20
+iup.lib(iupwin_button.obj) : error LNK2001: unresolved external symbol __imp__SetRect@20
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__SetRect@20
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__SetRect@20
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SetRect@20
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__RegisterClipboardFormatW@4 referenced in function _winRegisterClipboardFormat
+iup.lib(iupwin_clipboard.obj) : error LNK2001: unresolved external symbol __imp__RegisterClipboardFormatW@4
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__GetClipboardFormatNameW@12 referenced in function _winGetClipboardFormatName
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__DragDetect@12 referenced in function _iupwinDragDetectStart
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__DragQueryFileW@16 referenced in function _iupwinDropFiles
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__DragQueryPoint@8 referenced in function _iupwinDropFiles
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__DragFinish@4 referenced in function _iupwinDropFiles
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__DragAcceptFiles@8 referenced in function _winSetDropFilesTargetAttrib
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__CoLockObjectExternal@12 referenced in function _iupwinDestroyDragDrop
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__OleInitialize@4 referenced in function _winInitOle
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__RegisterDragDrop@8 referenced in function _winSetDropTargetAttrib
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__RevokeDragDrop@4 referenced in function _winSetDropTargetAttrib
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__DoDragDrop@16 referenced in function _winRegisterProcessDrag
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__ReleaseStgMedium@4 referenced in function _IwinDropTarget_Drop@24
+iup.lib(iupwin_dragdrop.obj) : error LNK2019: unresolved external symbol __imp__SHCreateStdEnumFmtEtc@12 referenced in function _IwinDataObject_EnumFormatEtc@12
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__CombineRgn@16 referenced in function _winDialogSetShapeImageAttrib
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleDC@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleDC@4
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleDC@4
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleDC@4
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleDC@4
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__CreatePatternBrush@4 referenced in function _winDialogDrawBackground
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__CreateRectRgn@16 referenced in function _winDialogSetShapeImageAttrib
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__CreateRectRgn@16
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__DeleteDC@4
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__DeleteDC@4
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__DeleteDC@4
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__DeleteDC@4
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__DeleteDC@4
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__RegisterClassW@4 referenced in function _iupdrvDialogInitClass
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__RegisterClassW@4
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__RegisterClassW@4
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__UnregisterClassW@8 referenced in function _winDialogRelease
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__UnregisterClassW@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__UnregisterClassW@8
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__UpdateLayeredWindow@36 referenced in function _winDialogSetOpacityImageAttrib
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__SetLayeredWindowAttributes@16 referenced in function _winDialogSetOpacityAttrib
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__IsIconic@4 referenced in function _iupdrvDialogSetPlacement
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__IsZoomed@4 referenced in function _iupdrvDialogSetPlacement
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__EndDialog@8 referenced in function _winDialogBaseProc
+iup.lib(iupwin_messagedlg.obj) : error LNK2001: unresolved external symbol __imp__EndDialog@8
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__EndDialog@8
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__GetDlgItem@8 referenced in function _winDialogMDIFrameWndProc@16
+iup.lib(iupwin_fontdlg.obj) : error LNK2001: unresolved external symbol __imp__GetDlgItem@8
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__GetDlgItem@8
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__SetCapture@4 referenced in function _winDialogBaseProc
+iup.lib(iupwin_label.obj) : error LNK2001: unresolved external symbol __imp__SetCapture@4
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__SetCapture@4
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SetCapture@4
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__ReleaseCapture@0 referenced in function _winDialogBaseProc
+iup.lib(iupwin_label.obj) : error LNK2001: unresolved external symbol __imp__ReleaseCapture@0
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__ReleaseCapture@0
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__ReleaseCapture@0
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__GetMenuItemID@8 referenced in function _winDialogMDIFrameWndProc@16
+iup.lib(iupwin_menu.obj) : error LNK2001: unresolved external symbol __imp__GetMenuItemID@8
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__SetForegroundWindow@4 referenced in function _winDialogSetBringFrontAttrib
+iup.lib(iupwin_globalattrib.obj) : error LNK2001: unresolved external symbol __imp__SetForegroundWindow@4
+iup.lib(iupwin_menu.obj) : error LNK2001: unresolved external symbol __imp__SetForegroundWindow@4
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__BeginPaint@8 referenced in function _winDialogCustomFrameProc
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__BeginPaint@8
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__EndPaint@8 referenced in function _winDialogCustomFrameProc
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__EndPaint@8
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__SetWindowRgn@12 referenced in function _winDialogSetShapeImageAttrib
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__InvalidateRect@12 referenced in function _winDialogCustomFrameProc
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__InvalidateRect@12
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__InvalidateRect@12
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__LockWindowUpdate@4 referenced in function _winDialogSetTitleAttrib
+iup.lib(iupwin_tabs.obj) : error LNK2019: unresolved external symbol __imp__GetClientRect@8 referenced in function _winTabsDrawTab
+iup.lib(canvas.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_draw_wdl.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_val.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_dialog.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_tips.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__GetWindow@8 referenced in function _winDialogGetMdiNextAttrib
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__LoadImageW@24 referenced in function _winDialogLoadIcon
+iup.lib(iupwin_image.obj) : error LNK2001: unresolved external symbol __imp__LoadImageW@24
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__DefFrameProcW@20 referenced in function _winDialogMDIFrameWndProc@16
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__DefMDIChildProcW@16 referenced in function _winDialogMDIChildWndProc@16
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__CreateMDIWindowW@40 referenced in function _winDialogMapMethod
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__MonitorFromWindow@8 referenced in function _winDialogMaximizeAtParent
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__GetMonitorInfoW@8 referenced in function _winDialogMaximizeAtParent
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__GetWindowInfo@8 referenced in function _winDialogGetActiveWindowAttrib
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__Shell_NotifyIconW@8 referenced in function _winDialogCheckTray
+iup.lib(iupwin_dialog.obj) : error LNK2019: unresolved external symbol __imp__CoCreateInstance@20 referenced in function _winDialogMapMethod
+iup.lib(iupwin_globalattrib.obj) : error LNK2019: unresolved external symbol __imp__DisableProcessWindowsGhosting@0 referenced in function _iupdrvSetGlobal
+iup.lib(iupwin_globalattrib.obj) : error LNK2019: unresolved external symbol __imp__EnumWindows@8 referenced in function _iupdrvSetGlobal
+iup.lib(iupwin_globalattrib.obj) : error LNK2019: unresolved external symbol __imp__SetWindowsHookExW@16 referenced in function _iupdrvSetGlobal
+iup.lib(iupwin_globalattrib.obj) : error LNK2019: unresolved external symbol __imp__UnhookWindowsHookEx@4 referenced in function _iupdrvSetGlobal
+iup.lib(iupwin_globalattrib.obj) : error LNK2019: unresolved external symbol __imp__CallNextHookEx@16 referenced in function _winHookGetMessageProc@12
+iup.lib(iupwin_globalattrib.obj) : error LNK2019: unresolved external symbol __imp__EnumDisplayMonitors@16 referenced in function _iupdrvGetGlobal
+iup.lib(iupwin_key.obj) : error LNK2019: unresolved external symbol __imp__GetKeyboardLayout@4 referenced in function _iupwinKeyInit
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__GetKeyState@4
+iup.lib(iupwin_key.obj) : error LNK2001: unresolved external symbol __imp__GetKeyState@4
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__GetKeyState@4
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetKeyState@4
+iup.lib(iupwin_val.obj) : error LNK2001: unresolved external symbol __imp__GetKeyState@4
+iup.lib(iupwin_key.obj) : error LNK2019: unresolved external symbol __imp__VkKeyScanA@4 referenced in function _iupwinKeyInit
+iup.lib(iupwin_key.obj) : error LNK2019: unresolved external symbol __imp__MapVirtualKeyA@8 referenced in function _iupwinKeyInit
+iup.lib(iupwin_handle.obj) : error LNK2019: unresolved external symbol __imp__GetClassNameA@12 referenced in function _iupwinHandleAdd
+iup.lib(iupwin_brush.obj) : error LNK2019: unresolved external symbol __imp__CreateSolidBrush@4 referenced in function _iupwinBrushGet
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__CreateSolidBrush@4
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__Arc@36 referenced in function _iupdrvDrawArc
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__BitBlt@36 referenced in function _iupdrvDrawFlush
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__BitBlt@36
+iup.lib(canvas.obj) : error LNK2001: unresolved external symbol __imp__BitBlt@36
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__CreateCompatibleBitmap@12 referenced in function _iupdrvDrawCreateCanvas
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleBitmap@12
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleBitmap@12
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleBitmap@12
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__Pie@36 referenced in function _iupdrvDrawArc
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__SelectClipRgn@8 referenced in function _iupdrvDrawResetClip
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__SelectClipRgn@8
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__SelectClipRgn@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SetBkMode@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__SetBkMode@8
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__SetBkMode@8
+iup.lib(iupwin_toggle.obj) : error LNK2001: unresolved external symbol __imp__SetBkMode@8
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__SetBkMode@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__SetGraphicsMode@8 referenced in function _gdiResetWorld
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__SetPixelV@16 referenced in function _iupdrvDrawLine
+iup.lib(iupwin_toggle.obj) : error LNK2019: unresolved external symbol __imp__SetTextColor@8 referenced in function _winToggleMapMethod
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+iup.lib(iupwin_list.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__SetTextAlign@8 referenced in function _iupdrvDrawCreateCanvas
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__SetTextAlign@8
+iup.lib(iupwin_frame.obj) : error LNK2001: unresolved external symbol __imp__SetTextAlign@8
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__SetTextAlign@8
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__ModifyWorldTransform@12 referenced in function _gdiResetWorld
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__BeginPath@4 referenced in function _iupdrvDrawArc
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__EndPath@4 referenced in function _iupdrvDrawArc
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__FillPath@4 referenced in function _iupdrvDrawArc
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__ExtCreatePen@20 referenced in function _iDrawCreatePen
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__Polygon@12 referenced in function _iupdrvDrawPolygon
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__Polyline@12 referenced in function _iupdrvDrawLine
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__DrawTextW@20 referenced in function _iupdrvDrawText
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__DrawTextW@20
+iup.lib(iupwin_draw_gdi.obj) : error LNK2019: unresolved external symbol __imp__FrameRect@12 referenced in function _iupdrvDrawRectangle
+iup.lib(iupwin_draw.obj) : error LNK2001: unresolved external symbol __imp__FrameRect@12
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__GetMetaFileBitsEx@12 referenced in function _winClipboardSetSaveWMFAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__GetEnhMetaFileBits@12 referenced in function _winClipboardSetSaveEMFAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__OpenClipboard@4 referenced in function _winClipboardGetEMFAvailableAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__CloseClipboard@0 referenced in function _winClipboardGetEMFAvailableAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__SetClipboardData@8 referenced in function _winClipboardSetFormatDataAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__GetClipboardData@4 referenced in function _winClipboardGetFormatDataAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__EmptyClipboard@0 referenced in function _winClipboardSetFormatDataAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__IsClipboardFormatAvailable@4 referenced in function _winClipboardGetEMFAvailableAttrib
+iup.lib(iupwin_clipboard.obj) : error LNK2019: unresolved external symbol __imp__GetForegroundWindow@0 referenced in function _winClipboardGetEMFAvailableAttrib
+iup.lib(iupwin_image.obj) : error LNK2019: unresolved external symbol __imp__CreateBitmap@20 referenced in function _winImageCreateBitmask
+iup.lib(iupwin_image.obj) : error LNK2019: unresolved external symbol __imp__GetObjectType@4 referenced in function _iupdrvImageDestroy
+iup.lib(iupwin_image.obj) : error LNK2019: unresolved external symbol __imp__CreateDIBSection@24 referenced in function _winImageCreateBitmap
+iup.lib(iupwin_image.obj) : error LNK2019: unresolved external symbol __imp__GetObjectW@12 referenced in function _iupdrvImageGetInfo
+iup.lib(backend-gdix.obj) : error LNK2001: unresolved external symbol __imp__GetObjectW@12
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__GetObjectW@12
+iup.lib(font.obj) : error LNK2001: unresolved external symbol __imp__GetObjectW@12
+iup.lib(iupwin_image.obj) : error LNK2019: unresolved external symbol __imp__DestroyCursor@4 referenced in function _iupdrvImageDestroy
+iup.lib(iupwin_image.obj) : error LNK2019: unresolved external symbol __imp__DestroyIcon@4 referenced in function _iupdrvImageDestroy
+iup.lib(iupwin_image.obj) : error LNK2019: unresolved external symbol __imp__CreateIconIndirect@4 referenced in function _winImageCreateCursorIcon
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__IsMenu@4 referenced in function _winItemMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__GetActiveWindow@0 referenced in function _iupdrvMenuPopup
+iup.lib(iupwin_fontdlg.obj) : error LNK2001: unresolved external symbol __imp__GetActiveWindow@0
+iup.lib(iupwin_filedlg.obj) : error LNK2001: unresolved external symbol __imp__GetActiveWindow@0
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__SetMenu@8 referenced in function _winMenuMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__GetMenuState@12 referenced in function _winItemCheckToggle
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__DrawMenuBar@4 referenced in function _winItemCheckToggle
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__CreateMenu@0 referenced in function _winMenuMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__CreatePopupMenu@0 referenced in function _winMenuMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__DestroyMenu@4 referenced in function _winMenuMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__CheckMenuItem@12 referenced in function _winItemCheckToggle
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__EnableMenuItem@12 referenced in function _winItemSetActiveAttrib
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__GetSubMenu@8 referenced in function _iupwinMenuDialogProc
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__RemoveMenu@12 referenced in function _winMenuChildUnMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__SetMenuItemBitmaps@20 referenced in function _winItemSetImageAttrib
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__TrackPopupMenu@28 referenced in function _iupdrvMenuPopup
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__GetMenuInfo@8 referenced in function _iupwinMenuGetHandle
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__SetMenuInfo@8 referenced in function _winMenuMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__InsertMenuItemW@16 referenced in function _winItemMapMethod
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__GetMenuItemInfoW@16 referenced in function _iupdrvMenuPopup
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__SetMenuItemInfoW@16 referenced in function _winItemSetTitleAttrib
+iup.lib(iupwin_menu.obj) : error LNK2019: unresolved external symbol __imp__CheckMenuRadioItem@20 referenced in function _winItemCheckToggle
+iup.lib(iupwin_list.obj) : error LNK2019: unresolved external symbol __imp__CreateRectRgnIndirect@4 referenced in function _winListDrawDropFeedback
+iup.lib(iupwin_list.obj) : error LNK2019: unresolved external symbol __imp__PatBlt@24 referenced in function _winListDrawRect
+iup.lib(iupwin_list.obj) : error LNK2019: unresolved external symbol __imp__SetBkColor@8 referenced in function _winListCtlColor
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__SetBkColor@8
+iup.lib(iupwin_val.obj) : error LNK2001: unresolved external symbol __imp__SetBkColor@8
+iup.lib(iupwin_tree.obj) : error LNK2001: unresolved external symbol __imp__SetBkColor@8
+iup.lib(iupwin_list.obj) : error LNK2019: unresolved external symbol __imp__GetFocus@0 referenced in function _winListGetCaretPos
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetFocus@0
+iup.lib(iupwin_list.obj) : error LNK2019: unresolved external symbol __imp__GetCaretPos@4 referenced in function _winListGetCaretPos
+iup.lib(iupwin_text.obj) : error LNK2001: unresolved external symbol __imp__GetCaretPos@4
+iup.lib(iupwin_list.obj) : error LNK2019: unresolved external symbol __imp__PtInRect@12 referenced in function _iupwinListDND
+iup.lib(iupwin_list.obj) : error LNK2019: unresolved external symbol __imp__GetComboBoxInfo@8 referenced in function _winListMapMethod
+iup.lib(iupwin_draw.obj) : error LNK2019: unresolved external symbol __imp__StretchBlt@44 referenced in function _iupwinDrawBitmap
+iup.lib(iupwin_draw.obj) : error LNK2019: unresolved external symbol __imp__DrawFrameControl@16 referenced in function _iupwinDraw3StateButton
+iup.lib(backend-gdix.obj) : error LNK2019: unresolved external symbol __imp__GetDIBits@28 referenced in function _gdix_create_bitmap
+iup.lib(backend-gdix.obj) : error LNK2019: unresolved external symbol __imp__SetLayout@8 referenced in function _gdix_canvas_alloc
+iup.lib(canvas.obj) : error LNK2001: unresolved external symbol __imp__SetLayout@8
+iup.lib(backend-gdix.obj) : error LNK2019: unresolved external symbol __imp__GetLayout@4 referenced in function _gdix_canvas_alloc
+iup.lib(backend-gdix.obj) : error LNK2019: unresolved external symbol __imp__SetViewportOrgEx@16 referenced in function _gdix_canvas_alloc
+iup.lib(canvas.obj) : error LNK2001: unresolved external symbol __imp__SetViewportOrgEx@16
+iup.lib(iupwin_messagedlg.obj) : error LNK2019: unresolved external symbol __imp__MessageBoxIndirectW@4 referenced in function _winMessageDlgPopup
+iup.lib(iupwin_fontdlg.obj) : error LNK2019: unresolved external symbol __imp__ChooseFontW@4 referenced in function _winFontDlgPopup
+iup.lib(iupwin_filedlg.obj) : error LNK2019: unresolved external symbol __imp__MapWindowPoints@16 referenced in function _winFileCheckPreviewCanvas
+iup.lib(iupwin_filedlg.obj) : error LNK2019: unresolved external symbol __imp__GetOpenFileNameW@4 referenced in function _winFileDlgPopup
+iup.lib(iupwin_filedlg.obj) : error LNK2019: unresolved external symbol __imp__GetSaveFileNameW@4 referenced in function _winFileDlgPopup
+iup.lib(iupwin_filedlg.obj) : error LNK2019: unresolved external symbol __imp__SHGetPathFromIDListW@8 referenced in function _winFileDlgBrowseCallback@16
+iup.lib(iupwin_filedlg.obj) : error LNK2019: unresolved external symbol __imp__SHBrowseForFolderW@4 referenced in function _winFileDlgGetFolder
+iup.lib(iupwin_label.obj) : error LNK2019: unresolved external symbol __imp__GetCapture@0 referenced in function _winLabelMsgProc
+iup.lib(iupwin_canvas.obj) : error LNK2001: unresolved external symbol __imp__GetCapture@0
+iup.lib(iupwin_canvas.obj) : error LNK2019: unresolved external symbol __imp__SetScrollPos@16 referenced in function _winCanvasMsgProc
+iup.lib(iupwin_canvas.obj) : error LNK2019: unresolved external symbol __imp__ShowScrollBar@12 referenced in function _winCanvasSetDXAttrib
+iup.lib(iupwin_canvas.obj) : error LNK2019: unresolved external symbol __imp__EnableScrollBar@12 referenced in function _winCanvasSetDXAttrib
+iup.lib(iupwin_canvas.obj) : error LNK2019: unresolved external symbol __imp__SetScrollInfo@16 referenced in function _winCanvasSetDXAttrib
+iup.lib(iupwin_canvas.obj) : error LNK2019: unresolved external symbol __imp__GetScrollInfo@12 referenced in function _winCanvasGetScrollInfo
+iup.lib(iupwin_canvas.obj) : error LNK2019: unresolved external symbol __imp__GetScrollBarInfo@12 referenced in function _winCanvasIsScrollbarVisible
+iup.lib(iupwin_frame.obj) : error LNK2019: unresolved external symbol __imp__ExcludeClipRect@20 referenced in function _winFrameDrawItem
+iup.lib(iupwin_frame.obj) : error LNK2019: unresolved external symbol __imp__TextOutW@20 referenced in function _winFrameDrawItem
+iup.lib(iupwin_tabs.obj) : error LNK2001: unresolved external symbol __imp__TextOutW@20
+iup.lib(iupwin_frame.obj) : error LNK2019: unresolved external symbol __imp__DrawEdge@16 referenced in function _winFrameDrawItem
+iup.lib(iupwin_frame.obj) : error LNK2019: unresolved external symbol __imp__InflateRect@12 referenced in function _winFrameDrawItem
+iup.lib(iupwin_tabs.obj) : error LNK2019: unresolved external symbol __imp__CreateFontIndirectW@4 referenced in function _winTabsDrawRotateText
+iup.lib(iupwin_tree.obj) : error LNK2019: unresolved external symbol __imp__ShowCursor@4 referenced in function _winTreeDragBegin
+iup.lib(iupwindows_help.obj) : error LNK2019: unresolved external symbol __imp__ShellExecuteW@24 referenced in function _IupExecute
+iup.lib(iupwindows_help.obj) : error LNK2019: unresolved external symbol __imp__ShellExecuteExW@4 referenced in function _IupExecuteWait
+iup.lib(iupwin_timer.obj) : error LNK2019: unresolved external symbol __imp__SetTimer@16 referenced in function _iupdrvTimerRun
+iup.lib(iupwin_timer.obj) : error LNK2019: unresolved external symbol __imp__KillTimer@8 referenced in function _iupdrvTimerStop
+C:\Users\angel\Desktop\VisualStudio\GUI\Debug\GUI.exe : fatal error LNK1120: 219 unresolved externals
